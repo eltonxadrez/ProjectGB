@@ -1,6 +1,6 @@
 XL
 H 9 areas 47 global symbols
-M lcc124480
+M lcc170000
 S _NR13_REG Ref0000
 S _NR22_REG Ref0000
 S _NR31_REG Ref0000
@@ -68,11 +68,11 @@ S _NR12_REG Ref0000
 S _NR21_REG Ref0000
 S _NR30_REG Ref0000
 S _VBK_REG Ref0000
-A _CODE size 12E flags 0
+A _CODE size 12D flags 0
 S _main Def0000
 A _DATA size 2F0 flags 0
-S _GiantHeart Def0070
-S _Heart Def0000
+S _giant_heart Def0070
+S _heart Def0000
 S _smile Def0270
 A _OVERLAY size 0 flags 0
 A _ISEG size 0 flags 0
@@ -769,5 +769,5 @@ T 04 01 F5 33 3E 00 F5 33 3E 01 F5 33 CD 00 00 E8
 R 00 00 00 00 02 0D 2A 00
 T 12 01 03 21 14 00 E5 CD 00 00 E8 02 C3 63 00 C1
 R 00 00 00 00 02 08 32 00 00 0D 00 00
-T 20 01 C9 54 65 20 61 6D 6F 20 4B 61 79 6C 61 00
+T 20 01 C9 48 65 6C 6C 6F 20 57 6F 72 6C 64 00
 R 00 00 00 00

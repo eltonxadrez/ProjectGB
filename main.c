@@ -1,16 +1,16 @@
 #include <gb/gb.h>
 #include <stdio.h>
-#include "Heart.c"
-#include "GiantHeart.c"
+#include "heart.c"
+#include "tiles/giant_heart.c"
 #include "smile.c"
 
 
 void main(){
 
-    printf("Te amo Kayla");
+    printf("Hello World");
     
     SPRITES_8x16;
-    set_sprite_data(0, 32, GiantHeart);
+    set_sprite_data(0, 32, giant_heart);
     set_sprite_tile(0, 0);
     move_sprite(0, 75, 75);
     set_sprite_tile(1, 2);
